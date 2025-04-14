@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #670c9c;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-link: #411168;
 }
 
 body {
@@ -24,19 +24,19 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #4d065f;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/Espaço.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
     border-radius: 80px;
     width: 100%;
-    height: 606px;
+    height: 706px;
     padding: 40px;
     margin: 0 auto;
 }
@@ -45,7 +45,7 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
-    top: 18rem;
+    top: 58rem;
     width: 45rem;
     height: auto;
 }
@@ -79,8 +79,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('img/Espaço.jpg') top right no-repeat,
+        url('img/BuracoNegro.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -97,7 +97,7 @@ section {
 
 h2 {
     font-family: 'Lemon', serif;
-    font-size: 2.5em;
+    font-size: 3em;
     font-style: normal;
     color: var(--laranja-claro);
 }
@@ -108,12 +108,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('img/BuracoNegro.png') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundoEspaço.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
